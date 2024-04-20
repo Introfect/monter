@@ -102,7 +102,7 @@ Next <ChevronLast />
   <select value={itemsPerPage} onChange={handleDropdown}className='text-gray-500 text-md rounded-lg text-center border border-gray-500'>
     {tableData.map((item,index)=>{
       return(
-        <option value={item.id}>{item.id}</option>
+        <option key={index}  value={item.id}>{item.id}</option>
       )
     })}
   

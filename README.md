@@ -1,9 +1,10 @@
 
 ## Getting Started
 First, install the dependency:
-
+##
 ```bash
 npm instal
+```
 
 ## Run Development server
 
